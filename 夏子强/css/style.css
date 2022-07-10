@@ -1,0 +1,83 @@
+*{ margin:0; padding:0;}
+.logo img{width: 100px;}
+ .nav{ margin:20px;font-size: 20px; }
+.nav a{font-size: 20px;}
+ .nav>ul{ background-color: #ad6500;padding-left: 50px;list-style: none;}
+.nav>ul>li{ float: left;padding: 5px;font-size: 20px; width: 100px; position: relative; }
+ .nav>ul>li:hover ul{ display: block;list-style: none;}
+.nav ul li ul{position: absolute; display: none;left:0; top: 100%;}
+.box {width: 1000px;height: 400px; border: 1px solid #ccc;}
+.inner{ width: 1000px;height: 400px;position: relative; overflow: hidden;}
+.inner img{width: 800px; height: 400px;vertical-align: top}
+ .inner ul {width: 1000%; position: absolute;list-style: none; left:0;top: 0;}
+.inner li{ float: left;}
+ .box ol { position: absolute;height: 20px; right: 50px;bottom: 20px;text-align: center;}
+.box ol li{display: inline-block; width: 20px;height: 20px; line-height: 20px; background-color: #fff;
+	        margin: 5px;cursor: pointer; }
+ .box  ol .current{background-color: red;}
+  #arr{display: none;}
+ #arr span{
+width: 40px; height: 40px; position: absolute; left: 5px; top: 50%;
+	        margin-top: -20px;	 background: #fff;	        cursor: pointer;	        line-height: 40px;
+	        text-align: center;	        font-weight: bold;	        font-family: '黑体';
+	        font-size: 30px;color: #000; opacity: 0.5;
+	        border: 1px solid #fff;
+	    }
+	    #arr #right {
+	        right:50px;
+	        left: auto;
+	    }
+body,p{ font-size:12px; border:none; font-family:"Microsoft yahei";}
+a{ font-size:12px; color:#000; text-decoration:none; border:none; padding:0; margin:0; background:none;}
+a:hover{ color:#b68366;}
+img{ border:0; margin:0; padding:0;}
+ul,li{ list-style:none; border:0; margin:0; padding:0;}
+h1,h2,h3,h4,h5{ font-weight:normal; font-size:12px; display:block;}
+body{ width:960px; margin:0 auto; background:url(../images/bj.jpg); background-attachment:fixed; background-size: cover;}
+
+.logo{ width:100%; overflow:hidden; padding:10px 0;}
+
+
+.banner{ width:100%; overflow:hidden; padding-top:6px;}
+.banner img{ width:100%;}
+
+.tp{ width:100%; overflow:hidden; background:#5e2f24; padding:20px 0;}
+.tp li{ width:270px; float:left; margin-left:34px;}
+.tp li img{ width:270px; border:3px solid #FFFFFF; height:165px;}
+.tp h1{ font-size:15px; color:#a25205; font-weight:bold; line-height:40px; padding-left:20px;}
+.tp h2{ font-size:13px; color:#FFFFFF; padding:0 10px; line-height:22px;}
+.tp li a:hover h1{ color:#FFF;}
+.tp li a:hover img{ opacity:0.8}
+
+.about{ width:100%; overflow:hidden; background:#FFFFFF; padding-bottom:20px;}
+.title{ width:940px; margin:0 auto; height:40px; border-bottom:1px solid #CCCCCC; margin-top:10px; padding-bottom:4px;}
+.title h1{ font-size:20px; color:#333333; padding-left:20px; line-height:46px; font-weight: bolder;}
+.mave h2{ font-size:18px; color:#333333; padding-left:20px; line-height:46px; font-weight: bolder;}
+
+.about p{ font-size:14px; color:#666666; line-height:22px; padding:0 20px; margin-top:10px; text-indent:2em;}
+
+.foot{ width:100%; overflow:hidden; height:53px; background:url(../images/nav.jpg) repeat; border-radius:6px;text-align:center; font-size:14px; color:#FFFFFF; line-height:53px; margin:10px 0 0 0;}
+.about h3{ font-size:16px; font-weight:bold; color:#333333; padding:10px 0 0 10px; margin-left:20px;}
+
+.fl{ width:100%; overflow:hidden; padding-bottom:20px;}
+.fl li{ width:300px; float:left; margin-left:14px; margin-top:20px;}
+.fl li img{width:300px; height:200px;}
+.fl li h1{ font-size:16px; font-weight:bold; text-align:center; color:#333333; line-height:30px; padding-top:6px;}
+.fl li a:hover h1{ color:#b66c4f;}
+.fl li h2{ font-size:14px;color:#666666; line-height:24px; padding:0 10px;}
+.fl li a:hover h2{ color:#b66c4f;}
+
+.mao{ width:100%; overflow:hidden; padding-top:16px;}
+.mao h1{font-size:16px;color:#333333; font-weight:bold; padding:10px; }
+.mao h2{ font-size:14px; color:#666666; line-height:24px; padding:0 10px; text-indent:2em;}
+
+.fj{ width:100%; overflow:hidden;}
+.fj li{ width:940px; overflow:hidden; padding:10px 0; border-bottom:1px dashed #ccc; margin:0 auto;}
+.fj_l{ width:350px; float:left;}
+.fj_l img{ width:100%;}
+.fj_r{ width:555px; float:right; margin-right:14px; margin-left:14px;}
+.fj_r h1{ font-size:16px; font-weight:bold;}
+.fj_r p{ text-indent:inherit; padding:0;}
+
+.gy p{ font-size:20px;}
+
